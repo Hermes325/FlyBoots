@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `FlyBoots`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `flyboots.store`
   },
   plugins: [{
     resolve: 'gatsby-source-datocms',
