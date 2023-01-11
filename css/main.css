@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Roboto&display=swap');
+
+
+* {
+    margin : 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: black;
+
+}
+
+
+nav {
+    height: 5vw;
+
+}
+
+main {
+    padding-left : 4vw;
+    padding-right: 2vw;
+}
+
+.flex_main {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.flex_items_center {
+    display    : flex;
+    align-items: center;
+
+}
+
+.flex_center {
+    display        : flex;
+    justify-content: center;
+
+}
+
+.flex_space-evenly {
+    display        : flex;
+    justify-content: space-evenly;
+}
+
+
+a {
+    text-decoration: none;
+    color          : #F5F5F5;
+
+}
+
+.praviy_text {
+    padding-top: 18vw;
+    text-align : end;
+    width      : 29vw;
+}
+
+.praviy_text_flex {
+    display       : flex;
+    flex-direction: column;
+
+}
+
+
+.krugmain {
+    position: absolute;
+    left    : 35%;
+    width   : 26.459vw;
+    height  : 26.459vw;
+    top     : 12%;
+
+    background: linear-gradient(180deg, #D94E29 47.97%, #010101 100%);
+    box-shadow: 0px -10px 64px rgba(217, 78, 41, 0.9);
+
+    border-radius: 50%;
+
+}
+
+.krug1 {
+    position: absolute;
+    width   : 5.7vw;
+    height  : 5.7vw;
+    left    : 63.3%;
+    top     : 5.3vw;
+
+    background: linear-gradient(222.74deg, #D94E29 16.39%, rgba(217, 78, 41, 0) 88.2%);
+    box-shadow: 9px -7px 54px rgba(217, 78, 41, 0.6);
+
+    transform    : rotate(-167.59deg);
+    border-radius: 50%;
+
+}
+
+.krug2 {
+    position: absolute;
+    width   : 5.7vw;
+    height  : 5.7vw;
+    left    : 25%;
+    top     : 27.6vw;
+
+    background: linear-gradient(222.74deg, #D94E29 16.39%, rgba(217, 78, 41, 0) 88.2%);
+    box-shadow: 9px -7px 54px rgba(217, 78, 41, 0.6);
+
+    border-radius: 50%;
+}
+
+.krug3 {
+    position: absolute;
+    width   : 6.72vw;
+    height  : 6.72vw;
+    left    : 24%;
+    top     : 40vw;
+
+    background   : linear-gradient(222.74deg, #D94E29 16.39%, #010101 88.2%);
+    box-shadow   : 9px -7px 54px rgba(217, 78, 41, 0.6);
+    border-radius: 50%;
+
+}
+
+.krug4 {
+    position: absolute;
+    width   : 8.282vw;
+    height  : 8.282vw;
+    left    : 4.5%;
+    top     : 40.7vw;
+
+    background: linear-gradient(222.74deg, #D94E29 16.39%, #010101 88.2%);
+    box-shadow: 9px -7px 54px rgba(217, 78, 41, 0.6);
+
+    border-radius: 50%;
+
+}
+
+.Logotip {
+    width   : 18.2vw;
+    height  : 23.45vw;
+    position: absolute;
+    bottom  : 5vw;
+    z-index : 1;
+    transform: translateY(-2vw);
+}
+
+.grid_ramochka {
+    display           : grid;
+    grid-template-rows: repeat(2, 120px);
+    grid-row-gap      : 5vw;
+}
+
+
+.ramochka1 {
+    position  : relative;
+    width     : 33vw;
+    right     : 15px;
+    top       : -15px;
+    background: rgb(1, 1, 1);
+    z-index   : 5;
+    box-sizing: border-box;
+
+    border         : 20px solid rgba(245, 245, 245, 0.2);
+    backdrop-filter: blur(37px);
+    /* Note        : backdrop-filter has minimal browser support */
+
+    border-radius: 30px;
+    border-width : 0.2vw;
+}
+
+.ramochka2 {
+    z-index        : 1;
+    box-sizing     : border-box;
+    margin-top     : 4%;
+    border         : 2px solid #D94E29;
+    backdrop-filter: blur(37px);
+    /* Note        : backdrop-filter has minimal browser support */
+
+    border-radius: 30px;
+    border-width : 0.2vw;
+}
+
+.globus {
+
+    z-index: 2;
+    width  : 4vw;
+    height : 4vw;
+}
+
+.avito {
+
+
+    /** calc(10px + ...) - из-за самой картинки */
+
+    right        : max(15px, 62%);
+    padding      : 0.45vw 4.7vw 0.5vw 1.2vw;
+    box-shadow   : 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 0.92vw;
+
+    cursor: pointer;
+    border: none;
+
+    background: #ffffff;
+
+    /** Текст кнопки */
+    font-family: 'Jost';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 1.5vw;
+
+    text-align    : center;
+    letter-spacing: 0.04em;
+
+    color: #010101;
+}
+
+.avito>img {
+    position : absolute;
+    transform: translate(70%);
+    height   : 2.136vw;
+    width    : 2.188vw;
+
+}
+
+.vk {
+
+
+    /** calc(10px + ...) - из-за самой картинки */
+
+    right        : max(15px, 50%);
+    padding      : 1.563vw;
+    background   : #0077FF;
+    box-shadow   : 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 0.9vw;
+
+
+    cursor: pointer;
+    border: none;
+
+    color: #010101;
+
+}
+
+.vk>img {
+    position : absolute;
+    transform: translate(-50%, -50%);
+    height   : 1.823vw;
+    width    : 1.875vw;
+}
+
+.tg {
+
+    background   : #009BFF;
+    box-shadow   : 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 0.9vw;
+    border       : none;
+
+    padding: 1.563vw;
+    width  : 0vw;
+
+}
+
+.tg>img {
+    position : absolute;
+    transform: translate(-50%, -50%);
+    height   : 1.875vw;
+    width    : 1.875vw;
+}
+
+.flex_soc {
+    display    : flex;
+    align-items: center;
+
+    padding-left: 35px;
+    gap         : 10px;
+
+}
+
+.shnurki1 {
+    position: absolute;
+    right   : 15%;
+    z-index : 0;
+    width   : 88.65vw;
+    top     : 5vw;
+    height  : 57.1vw;
+}
+
+.golub2 {
+    padding-top: 10vw;
+    transform: translate(10vw, 5vw);
+}

@@ -1,0 +1,341 @@
+h1 {
+    color      : #F5F5F5;
+    font-family: 'Nofex';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 7.813rem;
+    line-height: 8.313rem;
+    /* or 106% */
+
+    letter-spacing: 0.02em;
+
+    color: #F5F5F5;
+
+    z-index: 100;
+
+}
+
+h2 {
+
+    font-family: 'Departura';
+    font-style : italic;
+    font-weight: 700;
+    font-size  : 4vw;
+    line-height: 87px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color  : #F5F5F5;
+    z-index: 100;
+}
+
+h3 {
+    font-family   : 'Montserrat';
+    font-style    : normal;
+    font-weight   : 400;
+    font-size     : 1.813rem;
+    line-height   : 2.188rem;
+    letter-spacing: 0.04em;
+
+    color: #F5F5F5;
+}
+
+h4 {
+    font-family: 'Jost';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 1.563rem;
+    line-height: 1.875rem;
+    /* identical to box height, or 120% */
+
+    letter-spacing: 0.04em;
+
+    color: #F5F5F5;
+}
+
+h5 {
+    font-family: 'Jost';
+    font-style : normal;
+    font-weight: 600;
+    font-size  : 26px;
+    line-height: 38px;
+    /* identical to box height */
+
+
+    color: #FAFAFA;
+}
+
+.Montserrat700 {
+    font-family: 'Montserrat';
+    font-style : normal;
+    font-weight: 700;
+    font-size  : var(--h1-size);
+    line-height: var(--h1-line-height);
+
+    color: #F5F5F5;
+
+}
+
+.Montserrat700_citata {
+    font-family: 'Montserrat';
+    font-style : normal;
+    font-weight: 700;
+    font-size  : 2vw;
+
+
+    color: #F5F5F5;
+
+}
+
+.Montserrat700_2 {
+    font-family: 'Montserrat';
+    font-style : normal;
+    font-weight: 700;
+    font-size  : 3.438rem;
+    line-height: 4.063rem;
+    /* or 118% */
+
+    letter-spacing: 0.02em;
+
+    color: #FFC700;
+}
+
+span {
+    color: #F5F5F5;
+}
+
+.jost400 {
+    font-family: 'Jost';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 1.438rem;
+    line-height: 2.438rem;
+    /* identical to box height, or 170% */
+
+    text-align    : center;
+    letter-spacing: 0.04em;
+
+    color: #F5F5F5;
+}
+
+.jost400_2 {
+    font-family   : 'Jost';
+    font-style    : normal;
+    font-weight   : 400;
+    font-size     : 1.125rem;
+    line-height   : 1.8rem;
+    /* or 185% */
+    text-align    : left;
+    letter-spacing: 0.02em;
+
+    color: #F5F5F5;
+}
+
+.jost400_3 {
+    font-family: 'Jost';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 1.4vw;
+    line-height: 1.8vw;
+    /* or 158% */
+
+    text-align    : right;
+    letter-spacing: 0.03em;
+
+    color: #F5F5F5;
+}
+
+.jost400_4 {
+    font-family: 'Jost';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 1.688rem;
+    line-height: 2.063rem;
+    /* or 122% */
+
+    letter-spacing: 0.02em;
+
+    color: #F5F5F5;
+
+}
+
+.jost400_5 {
+    font-family: 'Jost';
+    font-style : italic;
+    font-weight: 400;
+    font-size  : 1.313rem;
+    line-height: 2rem;
+    /* identical to box height, or 152% */
+
+    letter-spacing: 0.03em;
+
+    color: rgba(245, 245, 245, 0.6);
+
+}
+
+
+.jost400_6 {
+    font-family: 'Jost';
+    font-style : italic;
+    font-weight: 400;
+    font-size  : 1.125rem;
+    line-height: 1.75rem;
+    /* or 156% */
+
+    letter-spacing: 0.05em;
+
+    color: rgba(245, 245, 245, 0.8);
+
+
+}
+
+
+
+.jost400_7 {
+    font-family: 'Jost';
+    font-style : italic;
+    font-weight: 400;
+    font-size  : 1rem;
+    line-height: 1.438rem;
+    /* or 156% */
+
+    letter-spacing: 0.05em;
+
+    color: rgba(245, 245, 245, 0.8);
+
+
+}
+
+.jost400_8 {
+    font-family: 'Jost';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 20px;
+    line-height: 39px;
+    /* identical to box height, or 195% */
+
+    text-align    : center;
+    letter-spacing: 0.03em;
+
+    color: #010101;
+
+}
+
+
+.jost500 {
+    font-family: 'Jost';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 30px;
+    line-height: 40px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: 0.04em;
+
+    color: #F5F5F5;
+
+}
+
+.jost500_1 {
+    font-family: 'Jost';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 2.125rem;
+    line-height: 2.438rem;
+    /* identical to box height, or 115% */
+
+    text-align    : center;
+    letter-spacing: 0.04em;
+
+    color: #FAFAFA;
+
+
+}
+
+
+.jost500_2 {
+    font-family: 'Jost';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 1.563rem;
+    line-height: 1.875rem;
+    /* identical to box height, or 115% */
+
+    text-align    : center;
+    letter-spacing: 0.04em;
+
+    color: #FAFAFA;
+
+
+}
+
+.Roboto400 {
+    font-family: 'Roboto';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 1.4vw;
+    line-height: 1.7vw;
+
+    text-align    : center;
+    letter-spacing: 0.04em;
+
+    color: #F5F5F5;
+
+}
+
+.Roboto400_1 {
+    font-family: 'Roboto';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 1.063rem;
+    line-height: 1.813rem;
+    /* or 171% */
+
+    letter-spacing: 0.04em;
+
+    color: rgba(245, 245, 245, 0.9);
+
+}
+
+.Roboto400_2 {
+    font-family: 'Roboto';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 1.125rem;
+    line-height: 2rem;
+    /* or 171% */
+
+    letter-spacing: 0.04em;
+
+    color: rgba(245, 245, 245, 0.9);
+
+}
+
+.Roboto400_3 {
+    font-family: 'Roboto';
+    font-style : normal;
+    font-weight: 50;
+    font-size  : 15px;
+    line-height: 29px;
+    /* or 161% */
+
+    letter-spacing: 0.05em;
+
+    color: rgba(245, 245, 245, 0.95);
+
+}
+
+
+.bledno {
+
+    margin-top    : 1.5vw;
+    font-family   : 'Jost';
+    font-style    : normal;
+    font-weight   : 400;
+    font-size     : 1.8vw;
+    line-height   : 33px;
+    letter-spacing: 0.02em;
+
+    color: rgba(245, 245, 245, 0.9);
+}

@@ -1,0 +1,8 @@
+
+.ramka_tovara{
+    background: rgba(1, 1, 1, 0.6);
+    border: 3px solid rgba(245, 245, 245, 0.2);
+    backdrop-filter: blur(32.5px);
+    border-radius: 55px;
+    width: 75vw;
+}
