@@ -50,15 +50,15 @@
 }
 
 .ramochka_child {
-    background-image: url(../images/try1.webp);
+    background-image: url(~/static/images/try1.webp);
 }
 
 .ramochka_man {
-    background-image: url(../images/man.png);
+    background-image: url(~/static/images/man.png);
 }
 
 .ramochka_woman {
-    background-image: url(../images/woman.png);
+    background-image: url(~/static/images/woman.png);
 }
 
 .container {

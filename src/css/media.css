@@ -1,0 +1,300 @@
+:root {
+    --h1-size       : clamp(40px, 35.15px + 1.29vw, 60px);
+    --h1-line-height: clamp(39px, 30.71px + 2.21vw, 73.14px);
+}
+
+
+@media screen and (max-width: 479px) {
+
+    .h1_transfer {
+        transform: translateX(-10vw);
+    }
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+    .cata {
+        position         : relative;
+        width            : 75vw;
+        height           : 96vw;
+        background-repeat: no-repeat;
+        background-size  : cover;
+
+        border-radius: 1vw;
+
+        transition: 0.20s;
+    }
+
+
+    .shnurki2 {
+        display: none;
+        width  : 117%;
+    }
+
+
+
+
+
+
+    /* стили для телефонов - начало */
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenava {
+        font-size: 18px;
+    }
+
+    .container {
+        flex-direction: column;
+        row-gap       : 2vw;
+    }
+
+    .catalog_media {
+        margin-top: 20vw;
+    }
+
+    .more_media {
+        display: none;
+    }
+
+    .praviy_text_media {
+        margin-top: 5vw;
+        transform : translateX(15vw);
+    }
+
+    .catalog_text_media {
+        display        : flex;
+        justify-content: center;
+
+
+    }
+
+    .Media_Logo {
+        width       : 25vw;
+        padding-left: 3vw;
+        padding-top : 3vw;
+    }
+
+
+    .Logotip {
+        width    : 48.792270531400966vw;
+        height   : auto;
+        transform: translateY(-5rem);
+    }
+
+    h1 {
+
+        font-family: 'Nofex';
+        font-style : normal;
+        font-weight: 400;
+        font-size  : 75px;
+        line-height: 83px;
+        /* or 111% */
+
+        letter-spacing: 0.02em;
+
+        color: #F5F5F5;
+    }
+
+
+    .jost400 {
+        font-family   : 'Jost';
+        font-style    : normal;
+        font-weight   : 400;
+        font-size     : 16px;
+        line-height   : 23px;
+        display       : flex;
+        align-items   : center;
+        text-align    : center;
+        letter-spacing: 0.04em;
+
+        color: #F5F5F5;
+    }
+
+    .krugmain {
+        width : 70.459vw;
+        height: 70.459vw;
+        top: 12%;
+    }
+
+
+    .shnurki {
+        display: none;
+    }
+
+    .flex_media {
+        display: flex;
+
+    }
+
+    .Logo_media {
+        padding-left: 0;
+        transform   : translateX(-25vw);
+    }
+
+    .jost400_3 {
+        font-style : italic;
+        font-size  : 14px;
+        line-height: 23px;
+        width      : 70vw !important;
+    }
+
+    .text_top {
+        margin-top: 10%;
+    }
+
+    .shnurki2 {
+        display : block;
+        position: absolute;
+        z-index : 2;
+        top     : 22%;
+
+        width: 100%;
+
+        overflow-y: hidden;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenava {
+        font-size: 18px;
+    }
+
+    .container {
+        flex-direction: column;
+        row-gap       : 2vw;
+    }
+
+    .catalog_media {
+        margin-top: 20vw;
+    }
+
+    .more_media {
+        display: none;
+    }
+
+    .praviy_text_media {
+        margin-top: 5vw;
+    }
+
+    .catalog_text_media {
+        display        : flex;
+        justify-content: center;
+
+
+    }
+
+    .Media_Logo {
+        width       : 25vw;
+        padding-left: 3vw;
+        padding-top : 3vw;
+    }
+
+
+    .Logotip {
+        width    : 48.792270531400966vw;
+        height   : auto;
+        transform: translateY(-5rem);
+    }
+
+    h1 {
+
+        font-family: 'Nofex';
+        font-style : normal;
+        font-weight: 400;
+        font-size  : 75px;
+        line-height: 83px;
+        /* or 111% */
+
+        letter-spacing: 0.02em;
+
+        color: #F5F5F5;
+    }
+
+
+    .jost400 {
+        font-family   : 'Jost';
+        font-style    : normal;
+        font-weight   : 400;
+        font-size     : 16px;
+        line-height   : 23px;
+        display       : flex;
+        align-items   : center;
+        text-align    : center;
+        letter-spacing: 0.04em;
+
+        color: #F5F5F5;
+    }
+
+    .krugmain {
+        width : 70.459vw;
+        height: 70.459vw;
+        top: 22%;
+        left: 15%;
+    }
+
+
+    .flex_main {
+        flex-direction: column;
+        align-items   : center;
+    }
+
+    .shnurki {
+        display: none;
+    }
+
+    .flex_media {
+        display: flex;
+
+    }
+
+    .Logo_media {
+        padding-left: 0;
+        transform   : translateX(-25vw);
+    }
+
+    .jost400_3 {
+        font-style : italic;
+        font-size  : 14px;
+        line-height: 23px;
+        width      : 70vw !important;
+    }
+
+    .text_top {
+        margin-top: 10%;
+    }
+
+    .shnurki2 {
+        display : block;
+        position: absolute;
+        z-index : 2;
+        top     : 22%;
+
+        width: 100%;
+
+        overflow-y: hidden;
+    }
+
+
+}
