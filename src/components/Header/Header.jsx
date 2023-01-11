@@ -3,6 +3,7 @@ import React from 'react'
 const Header = () => {
 
   const toggleMenu = () => {
+    if (!!!window) return;
     document.body.classList.toggle("open");
   };
 
