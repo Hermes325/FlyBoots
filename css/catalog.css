@@ -1,0 +1,105 @@
+.btn {
+    position: absolute;
+
+    /** calc(10px + ...) - из-за самой картинки */
+    top          : 90%;
+    right        : max(15px, 5%);
+    padding      : 0.17vw 2.6vw 0.25vw 1.7vw;
+    box-shadow   : 0px 2px 15px rgba(0, 0, 0, 0.1);
+    cursor       : pointer;
+    border       : none;
+    border-radius: 1.9vw 0.66vw 1.9vw 1.9vw;
+    background   : #010101;
+
+    /** Текст кнопки */
+    font-family: 'Jost';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 1.5vw;
+
+    text-align    : center;
+    letter-spacing: 0.04em;
+    z-index       : 1;
+}
+
+.btn>img {
+    position : absolute;
+    transform: translate(70%, 20%);
+    height   : 1.3vw;
+    width    : 1.3vw;
+}
+
+.ramochka_child,
+.ramochka_man,
+.ramochka_woman {
+    position         : relative;
+    width            : 27vw;
+    height           : 34.467vw;
+    background-repeat: no-repeat;
+    background-size  : cover;
+
+    border-radius: 1vw;
+
+    transition: 0.15s;
+}
+
+.ramochka_child:hover,
+.ramochka_man:hover,
+.ramochka_woman:hover {
+    transform: scale(1.03);
+}
+
+.ramochka_child {
+    background-image: url(../картинки/try1.webp);
+}
+
+.ramochka_man {
+    background-image: url(../картинки/man.png);
+}
+
+.ramochka_woman {
+    background-image: url(../картинки/woman.png);
+}
+
+.container {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-around;
+
+    margin-top: 2vw;
+}
+
+
+/*
+Внутри каталога
+*/
+
+
+.grid_in_catalog {
+   
+
+    display              : grid;
+    grid-template-columns: repeat(4, 290px);
+    grid-gap             : 50px;
+    justify-content      : center;
+
+}
+
+.cartochka {
+    border       : 3px solid #29D9CE;
+    border-radius: 32px;
+    padding      : 20px;
+
+
+}
+
+.buy {
+    background   : #00B5B5;
+    box-shadow   : 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 36px;
+    margin-top   : 20px;
+    height       : 50px;
+    width: 163px;
+}
+
+

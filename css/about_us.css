@@ -1,0 +1,32 @@
+.flex_end_1 {
+    margin-top     : 2vw;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : flex-start;
+
+}
+
+.flex_colomn {
+    
+    flex-direction: column;
+}
+
+
+.text {
+    text-align: start;
+    width     : 41vw;
+    margin-top: 2vw;
+}
+
+.text1 {
+    text-align: start;
+    width     : 29vw;
+    margin-top: 2vw;
+}
+
+.flex_end_end
+{
+    display: flex;
+    justify-content: flex-end;
+
+}

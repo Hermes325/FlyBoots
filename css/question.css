@@ -1,0 +1,164 @@
+.we_in_VK {
+    align-items: flex-start;
+    box-sizing : border-box;
+
+    width : 23vw;
+    height: 9vw;
+
+    margin-top: 15%;
+
+    background: #0077FF;
+
+    backdrop-filter: blur(37px);
+    /* Note        : backdrop-filter has minimal browser support */
+
+    border-radius: 1.9vw;
+    border-width : 0.2vw;
+}
+
+.we_in_TG {
+    align-items: flex-start;
+    box-sizing : border-box;
+
+    width : 23vw;
+    height: 9vw;
+
+    margin-top: 4%;
+
+    background: #009BFF;
+
+    backdrop-filter: blur(37px);
+    /* Note        : backdrop-filter has minimal browser support */
+
+    border-radius: 1.9vw;
+    border-width : 0.2vw;
+}
+
+.we_in_avito {
+
+    align-items: flex-start;
+    box-sizing : border-box;
+
+    width      : 19vw;
+    height     : 19vw;
+    margin-top : 8%;
+    margin-left: 1vw;
+
+
+    background: #F5F5F5;
+
+    backdrop-filter: blur(37px);
+    /* Note        : backdrop-filter has minimal browser support */
+
+    border-radius: 1.9vw;
+    border-width : 0.2vw;
+}
+
+.flex {
+    display: flex;
+}
+
+
+.WTF {
+    width    : 3.8021vw;
+    transform: translateX(-3.4vw);
+}
+
+.flex_avito {
+    display        : flex;
+    align-items    : center;
+    flex-direction : column-reverse;
+    justify-content: space-between;
+}
+
+.text_avito {
+    width    : 8vw;
+    transform: translate(80%, 1vw);
+
+    font-family: 'Jost';
+    font-style : italic;
+    font-weight: 400;
+    font-size  : 15px;
+    line-height: 18px;
+    /* or 120% */
+
+    letter-spacing: 0.01em;
+
+    color: rgba(1, 1, 1, 0.3);
+}
+
+
+.text_avito_main {
+    font-family: 'Montserrat';
+    font-style : italic;
+    font-weight: 700;
+    font-size  : 35px;
+    line-height: 48px;
+    /* or 137% */
+
+    text-align    : center;
+    letter-spacing: 0.01em;
+
+    color: #0021CF;
+}
+
+
+.text_vk_tg {
+    transform: translate(2vw, 2vw);
+
+    font-family   : 'Jost';
+    font-style    : normal;
+    font-weight   : 500;
+    font-size     : 37px;
+    line-height   : 53px;
+    letter-spacing: 0.01em;
+
+    color: #FAFAFA;
+}
+
+
+.text_vk,
+.text_tg {
+    font-family: 'Roboto';
+    font-style : italic;
+    font-weight: 400;
+    font-size  : 18px;
+    line-height: 29px;
+    /* or 161% */
+
+    letter-spacing: 0.04em;
+
+    color: #F5F5F5;
+
+}
+
+.konec {
+    font-family: 'Roboto';
+    font-style : italic;
+    font-weight: 400;
+    font-size  : 21px;
+    line-height: 38px;
+    /* or 181% */
+
+    letter-spacing: 0.04em;
+
+    color: rgba(245, 245, 245, 0.6);
+
+
+    padding-top: 2vw;
+
+}
+
+.prava {
+    font-family: 'Jost';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 20px;
+    line-height: 35px;
+    /* identical to box height, or 175% */
+
+    letter-spacing: 0.04em;
+
+    color      : rgba(245, 245, 245, 0.5);
+    padding-top: 2vw;
+}

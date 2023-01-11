@@ -1,0 +1,46 @@
+.flex_end {
+    margin-top     : 7vw;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : flex-end;
+}
+
+.david {
+    width        : 22.3vw;
+    height       : 32.5vw;
+    margin-bottom: 3vw;
+}
+
+.cesar {
+    width     : 17.26vw;
+    height    : 25.76vw;
+    overflow-x: hidden;
+}
+
+.citata_david {
+    transform: translate(2vw, -20vw);
+}
+
+.citata_cesar {
+    transform: translate(-1vw, -10vw);
+}
+
+.slova_cesar {
+    transform: translate(1.5vw, -9.5vw);
+}
+
+.slova_david {
+    width: 38vw;
+    transform: translate(2.5vw, -11vw);
+}
+
+.zakazat {
+    background   : linear-gradient(86.36deg, #E2167A 0%, #DC640F 100%);
+    box-shadow   : 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    width        : 27.865vw;
+    height       : 4.167vw;
+    z-index: 0;
+
+    transform: translate(0, -7vw);
+}
