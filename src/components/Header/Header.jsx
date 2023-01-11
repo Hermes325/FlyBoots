@@ -3,7 +3,8 @@ import React from 'react'
 const Header = () => {
 
   const toggleMenu = () => {
-    if (!!!window) return;
+    if (typeof window === 'undefined') return
+
     document.body.classList.toggle("open");
   };
 
