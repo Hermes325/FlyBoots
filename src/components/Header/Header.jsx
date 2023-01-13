@@ -12,7 +12,7 @@ const Header = () => {
     <div className="background" />
 
     <nav className="navbar">
-      <form action="/main.html">
+      <form action="\">
         <button>
           <img
             className="navbar-logo"
@@ -30,6 +30,9 @@ const Header = () => {
       <a style={{ animationDelay: "0.4s" }} href="#About_us">О нас</a>
       <a style={{ animationDelay: "0.5s" }} href="#Связаться">Связаться</a>
     </nav>
+
+    
+
 
   </header>
 }

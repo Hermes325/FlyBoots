@@ -106,21 +106,21 @@ const IndexPage = () =>
       </div>
 
       <div className="container">
-        <a href="./catalog.html" className="ramochka_child">
+        <a href="./Snikers" className="ramochka_child">
           <div className="btn">
             Кроссовки
             <img src="../images/Vector.svg" alt="купить" />
           </div>
         </a>
 
-        <a href="./catalog.html" className="ramochka_man">
+        <a href="./Snikers" className="ramochka_man">
           <div className="btn">
             Одежда
             <img src="../images/Vector.svg" alt="купить" />
           </div>
         </a>
 
-        <a href="./catalog.html" className="ramochka_woman">
+        <a href="./Accessories" className="ramochka_woman">
           <div className="btn">
             Аксессуары
             <img src="../images/Vector.svg" alt="купить" />

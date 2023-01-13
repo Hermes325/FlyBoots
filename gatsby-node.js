@@ -10,7 +10,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   // Шаблоны
   const snickersTemplate = path.resolve(`./src/templates/Snikers.jsx`)
-
+ 
   // Запросы к DatoCMS
   const allSnikersFromCMS = await graphql(`
   {
